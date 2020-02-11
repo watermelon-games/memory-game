@@ -1,19 +1,19 @@
-package com.snatik.matches.engine;
+package watermelon.games.memorygame.engine;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
-import com.snatik.matches.R;
-import com.snatik.matches.common.Shared;
-import com.snatik.matches.events.ui.ResetBackgroundEvent;
-import com.snatik.matches.fragments.DifficultySelectFragment;
-import com.snatik.matches.fragments.GameFragment;
-import com.snatik.matches.fragments.MenuFragment;
-import com.snatik.matches.fragments.ThemeSelectFragment;
+import watermelon.games.memorygame.R;
+import watermelon.games.memorygame.common.Shared;
+import watermelon.games.memorygame.events.ui.ResetBackgroundEvent;
+import watermelon.games.memorygame.fragments.DifficultySelectFragment;
+import watermelon.games.memorygame.fragments.GameFragment;
+import watermelon.games.memorygame.fragments.MenuFragment;
+import watermelon.games.memorygame.fragments.ThemeSelectFragment;
 
 public class ScreenController {
 

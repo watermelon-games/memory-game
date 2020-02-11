@@ -1,4 +1,4 @@
-package com.snatik.matches.fragments;
+package watermelon.games.memorygame.fragments;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -6,7 +6,6 @@ import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,12 +15,14 @@ import android.view.animation.BounceInterpolator;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.snatik.matches.R;
-import com.snatik.matches.common.Music;
-import com.snatik.matches.common.Shared;
-import com.snatik.matches.events.ui.StartEvent;
-import com.snatik.matches.ui.PopupManager;
-import com.snatik.matches.utils.Utils;
+import androidx.fragment.app.Fragment;
+
+import watermelon.games.memorygame.R;
+import watermelon.games.memorygame.common.Music;
+import watermelon.games.memorygame.common.Shared;
+import watermelon.games.memorygame.events.ui.StartEvent;
+import watermelon.games.memorygame.ui.PopupManager;
+import watermelon.games.memorygame.utils.Utils;
 
 public class MenuFragment extends Fragment {
 

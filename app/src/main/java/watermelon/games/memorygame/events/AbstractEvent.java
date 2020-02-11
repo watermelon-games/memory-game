@@ -1,4 +1,4 @@
-package com.snatik.matches.events;
+package watermelon.games.memorygame.events;
 
 public abstract class AbstractEvent implements Event {
 

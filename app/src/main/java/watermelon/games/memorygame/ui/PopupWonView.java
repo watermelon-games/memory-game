@@ -1,4 +1,4 @@
-package com.snatik.matches.ui;
+package watermelon.games.memorygame.ui;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -12,16 +12,16 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.snatik.matches.R;
-import com.snatik.matches.common.Music;
-import com.snatik.matches.common.Shared;
-import com.snatik.matches.events.ui.BackGameEvent;
-import com.snatik.matches.events.ui.NextGameEvent;
-import com.snatik.matches.model.GameState;
-import com.snatik.matches.utils.Clock;
-import com.snatik.matches.utils.Clock.OnTimerCount;
-import com.snatik.matches.utils.FontLoader;
-import com.snatik.matches.utils.FontLoader.Font;
+import watermelon.games.memorygame.R;
+import watermelon.games.memorygame.common.Music;
+import watermelon.games.memorygame.common.Shared;
+import watermelon.games.memorygame.events.ui.BackGameEvent;
+import watermelon.games.memorygame.events.ui.NextGameEvent;
+import watermelon.games.memorygame.model.GameState;
+import watermelon.games.memorygame.utils.Clock;
+import watermelon.games.memorygame.utils.Clock.OnTimerCount;
+import watermelon.games.memorygame.utils.FontLoader;
+import watermelon.games.memorygame.utils.FontLoader.Font;
 
 public class PopupWonView extends RelativeLayout {
 

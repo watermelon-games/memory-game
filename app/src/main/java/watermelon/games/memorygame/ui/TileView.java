@@ -1,4 +1,4 @@
-package com.snatik.matches.ui;
+package watermelon.games.memorygame.ui;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -15,7 +15,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import com.snatik.matches.R;
+import watermelon.games.memorygame.R;
 
 public class TileView extends FrameLayout {
 

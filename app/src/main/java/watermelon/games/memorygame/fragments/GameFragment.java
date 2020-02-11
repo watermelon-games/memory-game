@@ -1,4 +1,4 @@
-package com.snatik.matches.fragments;
+package watermelon.games.memorygame.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,18 +9,18 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.snatik.matches.R;
-import com.snatik.matches.common.Shared;
-import com.snatik.matches.events.engine.FlipDownCardsEvent;
-import com.snatik.matches.events.engine.GameWonEvent;
-import com.snatik.matches.events.engine.HidePairCardsEvent;
-import com.snatik.matches.model.Game;
-import com.snatik.matches.ui.BoardView;
-import com.snatik.matches.ui.PopupManager;
-import com.snatik.matches.utils.Clock;
-import com.snatik.matches.utils.Clock.OnTimerCount;
-import com.snatik.matches.utils.FontLoader;
-import com.snatik.matches.utils.FontLoader.Font;
+import watermelon.games.memorygame.R;
+import watermelon.games.memorygame.common.Shared;
+import watermelon.games.memorygame.events.engine.FlipDownCardsEvent;
+import watermelon.games.memorygame.events.engine.GameWonEvent;
+import watermelon.games.memorygame.events.engine.HidePairCardsEvent;
+import watermelon.games.memorygame.model.Game;
+import watermelon.games.memorygame.ui.BoardView;
+import watermelon.games.memorygame.ui.PopupManager;
+import watermelon.games.memorygame.utils.Clock;
+import watermelon.games.memorygame.utils.Clock.OnTimerCount;
+import watermelon.games.memorygame.utils.FontLoader;
+import watermelon.games.memorygame.utils.FontLoader.Font;
 
 public class GameFragment extends BaseFragment {
 

@@ -1,4 +1,4 @@
-package com.snatik.matches.utils;
+package watermelon.games.memorygame.utils;
 
 import android.annotation.SuppressLint;
 import android.os.Handler;

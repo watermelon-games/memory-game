@@ -1,4 +1,4 @@
-package com.snatik.matches.model;
+package watermelon.games.memorygame.model;
 
 public class BoardConfiguration {
 

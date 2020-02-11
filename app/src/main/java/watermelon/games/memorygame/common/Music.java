@@ -1,9 +1,9 @@
-package com.snatik.matches.common;
+package watermelon.games.memorygame.common;
 
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;
 
-import com.snatik.matches.R;
+import watermelon.games.memorygame.R;
 
 public class Music {
 

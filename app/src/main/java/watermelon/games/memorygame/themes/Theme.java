@@ -1,4 +1,4 @@
-package com.snatik.matches.themes;
+package watermelon.games.memorygame.themes;
 
 import java.util.List;
 

@@ -1,12 +1,12 @@
-package com.snatik.matches.model;
+package watermelon.games.memorygame.model;
 
 import java.util.Map;
 
 import android.graphics.Bitmap;
 
-import com.snatik.matches.common.Shared;
-import com.snatik.matches.themes.Themes;
-import com.snatik.matches.utils.Utils;
+import watermelon.games.memorygame.common.Shared;
+import watermelon.games.memorygame.themes.Themes;
+import watermelon.games.memorygame.utils.Utils;
 
 /**
  * Before game starts, engine build new board

@@ -1,4 +1,4 @@
-package com.snatik.matches.utils;
+package watermelon.games.memorygame.utils;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -6,7 +6,7 @@ import android.graphics.Canvas;
 import android.graphics.RectF;
 import android.media.ThumbnailUtils;
 
-import com.snatik.matches.common.Shared;
+import watermelon.games.memorygame.common.Shared;
 
 public class Utils {
 

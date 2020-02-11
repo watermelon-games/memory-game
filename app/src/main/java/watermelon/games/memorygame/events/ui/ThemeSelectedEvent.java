@@ -1,8 +1,8 @@
-package com.snatik.matches.events.ui;
+package watermelon.games.memorygame.events.ui;
 
-import com.snatik.matches.events.AbstractEvent;
-import com.snatik.matches.events.EventObserver;
-import com.snatik.matches.themes.Theme;
+import watermelon.games.memorygame.events.AbstractEvent;
+import watermelon.games.memorygame.events.EventObserver;
+import watermelon.games.memorygame.themes.Theme;
 
 public class ThemeSelectedEvent extends AbstractEvent {
 

@@ -1,7 +1,7 @@
-package com.snatik.matches.events.engine;
+package watermelon.games.memorygame.events.engine;
 
-import com.snatik.matches.events.AbstractEvent;
-import com.snatik.matches.events.EventObserver;
+import watermelon.games.memorygame.events.AbstractEvent;
+import watermelon.games.memorygame.events.EventObserver;
 
 /**
  * When the 'back to menu' was pressed.

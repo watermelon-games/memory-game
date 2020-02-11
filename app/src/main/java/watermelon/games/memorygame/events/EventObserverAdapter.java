@@ -1,15 +1,15 @@
-package com.snatik.matches.events;
+package watermelon.games.memorygame.events;
 
-import com.snatik.matches.events.engine.FlipDownCardsEvent;
-import com.snatik.matches.events.engine.GameWonEvent;
-import com.snatik.matches.events.engine.HidePairCardsEvent;
-import com.snatik.matches.events.ui.BackGameEvent;
-import com.snatik.matches.events.ui.FlipCardEvent;
-import com.snatik.matches.events.ui.NextGameEvent;
-import com.snatik.matches.events.ui.ResetBackgroundEvent;
-import com.snatik.matches.events.ui.ThemeSelectedEvent;
-import com.snatik.matches.events.ui.DifficultySelectedEvent;
-import com.snatik.matches.events.ui.StartEvent;
+import watermelon.games.memorygame.events.engine.FlipDownCardsEvent;
+import watermelon.games.memorygame.events.engine.GameWonEvent;
+import watermelon.games.memorygame.events.engine.HidePairCardsEvent;
+import watermelon.games.memorygame.events.ui.BackGameEvent;
+import watermelon.games.memorygame.events.ui.FlipCardEvent;
+import watermelon.games.memorygame.events.ui.NextGameEvent;
+import watermelon.games.memorygame.events.ui.ResetBackgroundEvent;
+import watermelon.games.memorygame.events.ui.ThemeSelectedEvent;
+import watermelon.games.memorygame.events.ui.DifficultySelectedEvent;
+import watermelon.games.memorygame.events.ui.StartEvent;
 
 
 public class EventObserverAdapter implements EventObserver {

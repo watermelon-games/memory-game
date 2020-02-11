@@ -1,20 +1,19 @@
 package watermelon.games.memorygame;
 
-
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.widget.ImageView;
 
 import androidx.fragment.app.FragmentActivity;
 
-import com.snatik.matches.common.Shared;
-import com.snatik.matches.engine.Engine;
-import com.snatik.matches.engine.ScreenController;
-import com.snatik.matches.engine.ScreenController.Screen;
-import com.snatik.matches.events.EventBus;
-import com.snatik.matches.events.ui.BackGameEvent;
-import com.snatik.matches.ui.PopupManager;
-import com.snatik.matches.utils.Utils;
+import watermelon.games.memorygame.common.Shared;
+import watermelon.games.memorygame.engine.Engine;
+import watermelon.games.memorygame.engine.ScreenController;
+import watermelon.games.memorygame.engine.ScreenController.Screen;
+import watermelon.games.memorygame.events.EventBus;
+import watermelon.games.memorygame.events.ui.BackGameEvent;
+import watermelon.games.memorygame.ui.PopupManager;
+import watermelon.games.memorygame.utils.Utils;
 
 public class MainActivity extends FragmentActivity {
 

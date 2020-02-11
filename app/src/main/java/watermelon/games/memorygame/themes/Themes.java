@@ -1,9 +1,9 @@
-package com.snatik.matches.themes;
+package watermelon.games.memorygame.themes;
 
 import android.graphics.Bitmap;
 
-import com.snatik.matches.common.Shared;
-import com.snatik.matches.utils.Utils;
+import watermelon.games.memorygame.common.Shared;
+import watermelon.games.memorygame.utils.Utils;
 
 import java.util.ArrayList;
 

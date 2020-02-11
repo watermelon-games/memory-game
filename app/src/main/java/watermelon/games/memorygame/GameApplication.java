@@ -1,8 +1,8 @@
-package com.snatik.matches;
+package watermelon.games.memorygame;
 
 import android.app.Application;
 
-import com.snatik.matches.utils.FontLoader;
+import watermelon.games.memorygame.utils.FontLoader;
 
 public class GameApplication extends Application {
 

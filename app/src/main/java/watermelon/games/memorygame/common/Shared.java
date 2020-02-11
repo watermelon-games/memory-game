@@ -1,15 +1,16 @@
-package com.snatik.matches.common;
+package watermelon.games.memorygame.common;
 
 import android.content.Context;
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.FragmentActivity;
 
-import com.snatik.matches.engine.Engine;
-import com.snatik.matches.events.EventBus;
+import watermelon.games.memorygame.MainActivity;
+import watermelon.games.memorygame.engine.Engine;
+import watermelon.games.memorygame.events.EventBus;
 
 public class Shared {
 
 	public static Context context;
-	public static FragmentActivity activity; // it's fine for this app, but better move to weak reference
+	public static MainActivity activity; // it's fine for this app, but better move to weak reference
 	public static Engine engine;
 	public static EventBus eventBus;
 

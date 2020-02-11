@@ -1,11 +1,11 @@
-package com.snatik.matches.common;
+package watermelon.games.memorygame.common;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
 public class Memory {
 
-    private static final String SHARED_PREFERENCES_NAME = "com.snatik.matches";
+    private static final String SHARED_PREFERENCES_NAME = "watermelon.games.memorygame";
     private static String highStartKey = "theme_%d_difficulty_%d";
     private static String bestTimeKey = "themetime_%d_difficultytime_%d";
 

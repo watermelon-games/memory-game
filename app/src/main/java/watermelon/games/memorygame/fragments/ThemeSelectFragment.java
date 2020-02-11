@@ -1,21 +1,22 @@
-package com.snatik.matches.fragments;
+package watermelon.games.memorygame.fragments;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageView;
 
-import com.snatik.matches.R;
-import com.snatik.matches.common.Memory;
-import com.snatik.matches.common.Shared;
-import com.snatik.matches.events.ui.ThemeSelectedEvent;
-import com.snatik.matches.themes.Theme;
-import com.snatik.matches.themes.Themes;
+import androidx.fragment.app.Fragment;
+
+import watermelon.games.memorygame.R;
+import watermelon.games.memorygame.common.Memory;
+import watermelon.games.memorygame.common.Shared;
+import watermelon.games.memorygame.events.ui.ThemeSelectedEvent;
+import watermelon.games.memorygame.themes.Theme;
+import watermelon.games.memorygame.themes.Themes;
 
 import java.util.Locale;
 

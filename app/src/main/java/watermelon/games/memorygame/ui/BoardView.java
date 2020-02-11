@@ -1,4 +1,4 @@
-package com.snatik.matches.ui;
+package watermelon.games.memorygame.ui;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -20,13 +20,13 @@ import android.view.ViewGroup;
 import android.view.animation.BounceInterpolator;
 import android.widget.LinearLayout;
 
-import com.snatik.matches.R;
-import com.snatik.matches.common.Shared;
-import com.snatik.matches.events.ui.FlipCardEvent;
-import com.snatik.matches.model.BoardArrangment;
-import com.snatik.matches.model.BoardConfiguration;
-import com.snatik.matches.model.Game;
-import com.snatik.matches.utils.Utils;
+import watermelon.games.memorygame.R;
+import watermelon.games.memorygame.common.Shared;
+import watermelon.games.memorygame.events.ui.FlipCardEvent;
+import watermelon.games.memorygame.model.BoardArrangment;
+import watermelon.games.memorygame.model.BoardConfiguration;
+import watermelon.games.memorygame.model.Game;
+import watermelon.games.memorygame.utils.Utils;
 
 public class BoardView extends LinearLayout {
 

@@ -1,6 +1,6 @@
-package com.snatik.matches.model;
+package watermelon.games.memorygame.model;
 
-import com.snatik.matches.themes.Theme;
+import watermelon.games.memorygame.themes.Theme;
 
 /**
  * This is instance of active playing game

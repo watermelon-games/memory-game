@@ -1,4 +1,4 @@
-package com.snatik.matches.ui;
+package watermelon.games.memorygame.ui;
 
 import java.util.Locale;
 
@@ -8,8 +8,8 @@ import android.view.LayoutInflater;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.snatik.matches.R;
-import com.snatik.matches.common.Shared;
+import watermelon.games.memorygame.R;
+import watermelon.games.memorygame.common.Shared;
 
 public class DifficultyView extends LinearLayout {
 
