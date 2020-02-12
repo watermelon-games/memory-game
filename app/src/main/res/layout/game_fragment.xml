@@ -18,18 +18,18 @@
                 android:id="@+id/time_bar_image"
                 android:layout_width="@dimen/clock_width"
                 android:layout_height="@dimen/clock_height"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:layout_marginRight="@dimen/clock_margin_right"
+                android:layout_marginEnd="@dimen/clock_margin_right"
                 android:src="@drawable/time_bar" />
 
             <TextView
                 android:id="@+id/time_bar_text"
                 android:layout_width="@dimen/clock_width"
                 android:layout_height="@dimen/clock_height"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:layout_marginRight="@dimen/clock_text_margin_right"
+                android:layout_marginEnd="@dimen/clock_text_margin_right"
                 android:gravity="center"
                 android:shadowColor="#2eaed9"
                 android:shadowDx="4"
