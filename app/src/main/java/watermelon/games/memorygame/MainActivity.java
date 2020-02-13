@@ -3,6 +3,7 @@ package watermelon.games.memorygame;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.fragment.app.FragmentActivity;
 
@@ -16,6 +17,10 @@ import watermelon.games.memorygame.ui.PopupManager;
 import watermelon.games.memorygame.utils.Utils;
 
 public class MainActivity extends FragmentActivity {
+
+    private long backPressedTime;
+
+    private Toast backToast;
 
     private ImageView mBackgroundImage;
 
@@ -57,7 +62,15 @@ public class MainActivity extends FragmentActivity {
                 Shared.eventBus.notify(new BackGameEvent());
             }
         } else if (ScreenController.getInstance().onBack()) {
-            super.onBackPressed();
+            if (backPressedTime + 2000 > System.currentTimeMillis()) {
+                backToast.cancel();
+                super.onBackPressed();
+            } else {
+                backToast = Toast.makeText(getBaseContext(), R.string.press_again_to_exit, Toast.LENGTH_SHORT);
+                backToast.show();
+            }
+
+            backPressedTime = System.currentTimeMillis();
         }
     }
 

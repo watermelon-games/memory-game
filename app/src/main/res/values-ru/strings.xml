@@ -7,5 +7,6 @@
     <string name="sound_on">Звук ВКЛ</string>
     <string name="to_be_continued">Таблица лидеров будет реализована в следющем обновлении</string>
     <string name="rate_this">Оцените игру</string>
+    <string name="press_again_to_exit">Нажмите еще раз что бы выйти</string>
 
 </resources>
