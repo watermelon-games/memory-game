@@ -6,5 +6,6 @@
     <string name="sound_off">Sound OFF</string>
     <string name="sound_on">Sound ON</string>
     <string name="to_be_continued">Leaderboards will be available in the next game updates</string>
+    <string name="rate_this">Rate this</string>
 
 </resources>
