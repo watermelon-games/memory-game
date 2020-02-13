@@ -1,5 +1,6 @@
 package watermelon.games.memorygame.ui;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -59,10 +60,10 @@ public class PopupSettingsView extends LinearLayout {
 
     private void setMusicButton() {
         if (Music.OFF) {
-            mSoundText.setText("Sound OFF");
+            mSoundText.setText(R.string.sound_off);
             mSoundImage.setImageResource(R.drawable.button_music_off);
         } else {
-            mSoundText.setText("Sound ON");
+            mSoundText.setText(R.string.sound_on);
             mSoundImage.setImageResource(R.drawable.button_music_on);
         }
     }
