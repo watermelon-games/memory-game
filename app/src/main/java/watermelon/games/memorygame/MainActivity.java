@@ -44,8 +44,6 @@ public class MainActivity extends FragmentActivity {
 
         // set menu
         ScreenController.getInstance().openScreen(Screen.MENU);
-
-
     }
 
     @Override
