@@ -6,4 +6,5 @@ public class GameState {
 	public int achievedStars;
 	public int achievedScore;
 	public int passedSeconds;
+	public int steps;
 }

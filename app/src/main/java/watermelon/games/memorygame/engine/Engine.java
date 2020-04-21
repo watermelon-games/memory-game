@@ -215,14 +215,11 @@ public class Engine extends EventObserverAdapter {
 
 	@Override
 	public void onEvent(FlipCardEvent event) {
-		// Log.i("my_tag", "Flip: " + event.id);
 		int id = event.id;
 		if (mFlippedId == -1) {
 			mFlippedId = id;
-			// Log.i("my_tag", "Flip: mFlippedId: " + event.id);
 		} else {
 			if (mPlayingGame.boardArrangment.isPair(mFlippedId, id)) {
-				// Log.i("my_tag", "Flip: is pair: " + mFlippedId + ", " + id);
 				// send event - hide id1, id2
 				Shared.eventBus.notify(new HidePairCardsEvent(mFlippedId, id), 1000);
 				// play music
@@ -267,12 +264,10 @@ public class Engine extends EventObserverAdapter {
 					Shared.eventBus.notify(new GameWonEvent(gameState), 1200);
 				}
 			} else {
-				// Log.i("my_tag", "Flip: all down");
 				// send event - flip all down
 				Shared.eventBus.notify(new FlipDownCardsEvent(), 1000);
 			}
 			mFlippedId = -1;
-			// Log.i("my_tag", "Flip: mFlippedId: " + mFlippedId);
 		}
 	}
 

@@ -1,6 +1,20 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        release {
+            storeFile file('C:\\Android\\watermelon-games.jks')
+            storePassword 'Swqa123456'
+            keyAlias = 'key'
+            keyPassword 'Swqa1234'
+        }
+        debug {
+            storeFile file('C:\\Android\\watermelon-games.jks')
+            storePassword 'Swqa123456'
+            keyAlias = 'key'
+            keyPassword 'Swqa1234'
+        }
+    }
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
