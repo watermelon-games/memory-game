@@ -54,7 +54,6 @@ public class MenuFragment extends Fragment {
             }
         });
         mStartButtonLights = (ImageView) view.findViewById(R.id.start_game_button_lights);
-        mTooltip = (ImageView) view.findViewById(R.id.tooltip);
         mStartGameButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
